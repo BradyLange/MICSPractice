@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage[margin=0.75in]{geometry}
+\pagenumbering{gobble}
+
+\parindent 0pt
+
+\begin{document}
+%% Uncomment the next line in the final document -- it won't compile with it there though
+% \problemname{Problem 3 - Invisible Ink}
+
+%% Delete the next line in the final document -- I've included it here just to show the layout as a workaround
+\section*{Problem 3 - Invisible Ink}
+
+Professor Plum has a hard time remembering all of his passwords. He decides to store all of his passwords in a text file. To prevent someone from opening the text file and viewing his passwords, he encrypts the file using only the white-space characters of blank-spaces ('\,\,', ASCII character $32_{10}$) and horizontal-tabs ('\textbackslash t ', ASCII character $9_{10}$). Thus, someone opening the file will see only a blank screen. \\
+
+Every $7$ space/tab characters in the file encodes a binary number where spaces represent $0$s and tabs represent $1$s. Each $7$-bit binary number encodes for an ASCII value between $0$-$127$. (NOTE: ASCII and UNICODE values are equal in this range) \\ 
+
+Professor Plum has written the program to encrypt the passwords to a text file containing only spaces and tabs.  He wants you to write the program to decrypt this file back to the characters for the passwords.
+
+\section*{Input}
+The input contains a single line containing only a multiple of $7$ spaces and tabs, except for the ending new-line character. For example the following input (where a space is shown as ‘s’ and a tab is shown as a ‘t’) encodes the string “Hi Bob!”.  (ASCII value: ‘H’ is $72_{10}$ or $1001000_2$, ‘i’ is $105_{10}$ or $1101001_2$, ..., ‘!’ is $33_{10}$ or $0100001_2$) 
+
+\begin{verbatim}
+tsstsssttstsststssssstsssststtsttttttssstsstsssst
+\end{verbatim}
+
+\section*{Output}
+The output contains only the decrypted characters corresponding to the input.  For the above example, the output would be:
+
+\begin{verbatim}
+Hi Bob!
+\end{verbatim}
+
+\end{document}

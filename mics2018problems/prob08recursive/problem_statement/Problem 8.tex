@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\pagenumbering{gobble}
+
+\parindent 0pt
+
+\begin{document}
+%% Uncomment the next line in the final document -- it won't compile with it there though
+% \problemname{Problem 8 - Highly Recursive Function}
+
+%% Delete the next line in the final document -- I've included it here just to show the layout as a workaround
+\section*{Problem 8 - Highly Recursive Function}
+
+Professor Plums likes recursion, but his students typically find it confusing.  During a recent faculty meeting his mind wandered, and he invented the following recursive mathematical function, $H(n)$:
+
+\begin{align*}
+	H(n) &= H(n+5) + H(n+4) + H(n+2)  &&\text{for all values of } n \leq -8 \\
+	H(n) &= n  &&\text{for all values of } -8 <  n < 10 \\
+	H(n) &= H(n-8) + H(n-5) + H(n-3) &&\text{for all values of } n \geq 10
+\end{align*}
+
+He wants you to write a program to compute values of the function $H(n)$.
+
+\section*{Input}
+The first line contains the number of $n$ values to run through the function $H(n)$.  Each of the following lines contain a single integer value of $n$.  All of the values of $n$ and corresponding $H(n)$ values will fit into a $64$-bit signed integer. The below sample input contains three $n$ values. 
+\begin{verbatim}
+4
+-8
+10
+-13
+-4
+\end{verbatim}
+
+\section*{Output}
+For each $n$ value, print to standard output a case label and the value of $H(n)$ as defined above. For the example input given above, the output is:
+\begin{verbatim}
+Case 1: H(-8) = -13
+Case 2: H(10) = 14
+Case 3: H(-13) = -58
+Case 4: H(-4) = -4
+\end{verbatim}
+
+\end{document}

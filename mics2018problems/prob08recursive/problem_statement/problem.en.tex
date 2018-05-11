@@ -1,0 +1,17 @@
+\problemname{Problem 8 - Highly Recursive Function}
+
+Professor Plum likes recursion, but his students typically find it confusing.  During a recent faculty meeting his mind wandered, and he invented the following recursive mathematical function, $H(n)$: \\
+
+\begin{align*}
+	H(n) &= H(n+5) + H(n+4) + H(n+2)  &&\text{for all values of } n \leq -8 \\
+	H(n) &= n  &&\text{for all values of } -8 <  n < 10 \\
+	H(n) &= H(n-8) + H(n-5) + H(n-3) &&\text{for all values of } n \geq 10
+\end{align*}
+
+He wants you to write a program to compute values of the function $H(n)$.
+
+\section*{Input}
+The first line contains the number of $n$ values to run through the function $H(n)$.  Each of the following lines contain a single integer value of $n$.  All of the values of $n$ and corresponding $H(n)$ values will fit into a $64$-bit signed integer. The below sample input contains three $n$ values. 
+
+\section*{Output}
+For each $n$ value, print to standard output a case label and the value of $H(n)$ as defined above. For the example input given above, the output is:
