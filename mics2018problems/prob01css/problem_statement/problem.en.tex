@@ -1,0 +1,22 @@
+\problemname{Problem 1 - CSS}
+
+Professor Plum likes it when the College of Saint Scholastica, CSS, hosts MICS. He wants you to write a program to generate an ASCII art "CSS" sign. He plans on taping the sign on the side of the van when traveling to MICS  Since he does not know the dimensions of the sign, he wants your program to take as input positive integer scaling factors and generate multiple signs of different sizes.
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Scaling & Letter Dimension & Line Width & Blanks Between \\
+Factor & of CSS & of All Letters & CSS Letters \\ 
+ & (\#chars $\times$ \#chars) & (\#chars) &  \\ \hline
+$1$ & $5 \times 5$ & $1$ & $5$ \\ \hline
+$2$ & $10 \times 10$ & $2$ & $10$ \\ \hline
+$3$ & $15 \times 15$ & $3$ & $15$ \\ \hline
+$10$ & $50 \times 50$ & $10$ & $50$ \\ \hline
+\end{tabular}
+\end{center}
+
+\section*{Input}
+The first line contains the number of scaling factors which will be an integer between 1 and 100. Each of the following lines contains a single positive integer between 1 and 50 which is the scaling factor. The below sample input has $2$ scaling factors.
+
+\section*{Output}
+The output should contain the ASCII art for each sign corresponding to the scaling factors specified by the input.  NOTE: All lines for a sign should be the same length by padding shorter lines with blanks. Five blank lines are after each case. Output for the above input is shown below.

@@ -1,0 +1,32 @@
+Case 1:
+CCCCC     SSSSS     SSSSS
+C         S         S    
+C         SSSSS     SSSSS
+C             S         S
+CCCCC     SSSSS     SSSSS
+
+
+
+
+
+Case 2:
+CCCCCCCCCCCCCCC               SSSSSSSSSSSSSSS               SSSSSSSSSSSSSSS
+CCCCCCCCCCCCCCC               SSSSSSSSSSSSSSS               SSSSSSSSSSSSSSS
+CCCCCCCCCCCCCCC               SSSSSSSSSSSSSSS               SSSSSSSSSSSSSSS
+CCC                           SSS                           SSS            
+CCC                           SSS                           SSS            
+CCC                           SSS                           SSS            
+CCC                           SSSSSSSSSSSSSSS               SSSSSSSSSSSSSSS
+CCC                           SSSSSSSSSSSSSSS               SSSSSSSSSSSSSSS
+CCC                           SSSSSSSSSSSSSSS               SSSSSSSSSSSSSSS
+CCC                                       SSS                           SSS
+CCC                                       SSS                           SSS
+CCC                                       SSS                           SSS
+CCCCCCCCCCCCCCC               SSSSSSSSSSSSSSS               SSSSSSSSSSSSSSS
+CCCCCCCCCCCCCCC               SSSSSSSSSSSSSSS               SSSSSSSSSSSSSSS
+CCCCCCCCCCCCCCC               SSSSSSSSSSSSSSS               SSSSSSSSSSSSSSS
+
+
+
+
+
